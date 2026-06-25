@@ -34,7 +34,7 @@ min_epsilon = 0.01
 
 episodes = 100
 max_steps = 100
- 100
+ 
 <img width="1029" height="1078" alt="image" src="https://github.com/user-attachments/assets/388e9d29-b490-4425-90bb-dfc97ad1fe4b" />
 
 
