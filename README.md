@@ -21,22 +21,56 @@ Kedua metode ini diperlukan agar agent tidak hanya mencoba-coba terus, tetapi ju
 Bagaimana perubahan nilai reward setelah training 2000 episode?
 Setelah training selama 2000 episode, nilai reward cenderung meningkat dan menjadi lebih stabil. Hal ini menunjukkan bahwa agent telah mempelajari jalur terbaik menuju goal sehingga semakin sering berhasil menyelesaikan tugas dibandingkan pada awal proses training.
 
+
 Tugas Lanjutan
 Modifikasi program sehingga:
 1.	Menggunakan environment Taxi-v3 Menampilkan rata-rata reward setiap 100 episode Membandingkan hasil training 100,1000, 2000, dan 5000 episode
+alpha = 0.8       # learning rate
+gamma = 0.95      # discount factor
+epsilon = 1.0     # exploration rate
 
+epsilon_decay = 0.995
+min_epsilon = 0.01
+
+episodes = 100
+max_steps = 100
  100
 <img width="1029" height="1078" alt="image" src="https://github.com/user-attachments/assets/388e9d29-b490-4425-90bb-dfc97ad1fe4b" />
 
 
-1000
+
+alpha = 0.8       # learning rate
+gamma = 0.95      # discount factor
+epsilon = 1.0     # exploration rate
+
+epsilon_decay = 0.995
+min_epsilon = 0.01
+
+episodes = 1000
+max_steps = 100
 <img width="1298" height="1005" alt="image" src="https://github.com/user-attachments/assets/ef6e314e-85ae-4d26-877b-7735ec088a3f" />
 
 
-2000
+alpha = 0.8       # learning rate
+gamma = 0.95      # discount factor
+epsilon = 1.0     # exploration rate
+
+epsilon_decay = 0.995
+min_epsilon = 0.01
+
+episodes = 2000
+max_steps = 100
 <img width="1349" height="986" alt="image" src="https://github.com/user-attachments/assets/401ee0cb-12dd-4ff5-ac7a-5c8f77d8be95" />
 
-5000
+alpha = 0.8       # learning rate
+gamma = 0.95      # discount factor
+epsilon = 1.0     # exploration rate
+
+epsilon_decay = 0.995
+min_epsilon = 0.01
+
+episodes = 5000
+max_steps = 100
 <img width="1349" height="986" alt="image" src="https://github.com/user-attachments/assets/4dad0ed8-c8d7-48d2-8358-6c8fcf016ed0" />
 
 
