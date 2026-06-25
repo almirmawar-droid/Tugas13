@@ -1,4 +1,4 @@
-1. Apa yang dimaksud dengan State, Action, dan Reward dalam Reinforcement Learning?
+Apa yang dimaksud dengan State, Action, dan Reward dalam Reinforcement Learning?
 State adalah kondisi atau posisi yang sedang dihadapi agent dalam lingkungan.
 Action adalah tindakan yang dapat dipilih agent pada suatu state. 
 Reward adalah nilai umpan balik yang diterima agent setelah melakukan suatu action. Reward digunakan untuk menilai apakah tindakan yang dilakukan baik atau buruk.
