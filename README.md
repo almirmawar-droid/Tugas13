@@ -20,3 +20,24 @@ Kedua metode ini diperlukan agar agent tidak hanya mencoba-coba terus, tetapi ju
 
 Bagaimana perubahan nilai reward setelah training 2000 episode?
 Setelah training selama 2000 episode, nilai reward cenderung meningkat dan menjadi lebih stabil. Hal ini menunjukkan bahwa agent telah mempelajari jalur terbaik menuju goal sehingga semakin sering berhasil menyelesaikan tugas dibandingkan pada awal proses training.
+
+Tugas Lanjutan
+Modifikasi program sehingga:
+1.	Menggunakan environment Taxi-v3 Menampilkan rata-rata reward setiap 100 episode Membandingkan hasil training 100,1000, 2000, dan 5000 episode
+
+ 100
+
+
+1000
+
+
+2000
+<img width="1349" height="986" alt="image" src="https://github.com/user-attachments/assets/401ee0cb-12dd-4ff5-ac7a-5c8f77d8be95" />
+
+5000
+![Uploading image.png…]()
+
+
+
+
+
